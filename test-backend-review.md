@@ -24,9 +24,12 @@ semua tervalidasi, input terjaga sebelum masuk pada database
 
 ## crud
 - setiap request berjalan dengan baik
-**review : 10/10 : sesuai keinginan**
+- admin update user error/gagal
+**review : 9.5/10 : sesuai keinginan**
 
 ## OVERAL
-- role 'default' ngk guna
+- role 'default' ngk guna, atau perlukah admin untuk approval ?
+- kenapa admin bisa update note ? (ngk tau soal)
 - response message msh kurang
+- tidak menggunakan log untuk tracing (ngk tau ini masuk requirement apa ngk)
 **review : 9/10**

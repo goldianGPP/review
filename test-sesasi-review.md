@@ -19,7 +19,7 @@
 ## flow 
 (saya ngk tau soal)
 - dilihat dari code kelihatannya setiap fungsi yang diinginkan ada (tidak bisa di test)
-- di biasakan untuk memisahkan database berasarak model (struktur MVC). jangan bikin general"-an model untuk object internal.
+- di biasakan untuk memisahkan database berdasarkan model (struktur MVC). jangan bikin general"-an model untuk object internal.
 - authentikasi kelihatannya berjalan cuman ngk bisa login (ngk ada user, ngk ada register)
 - **review : 3/10 : sesuai keinginan (mungkin)**
 

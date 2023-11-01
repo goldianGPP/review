@@ -12,7 +12,7 @@
 ## responses
 - tidak ada api hanya web app
 - error handling masih di biarin saja. usahakan untuk menggunaka try/catch dan menampilkan message sederhana pada web app
-- **review : 5/10**
+- **review : 7/10**
 
 ## flow 
 (saya ngk tau soal)
@@ -24,7 +24,7 @@
 
 ## crud
 - fitur delete user tidak bisa dilakukan (kalau mau bikin fitur delete terhadap tabel yg punya relationship. pastikan saat create db siapkan cascade on delete atau buat soft delete by code atau status)
-- **review : 8/10**
+- **review : 7/10**
 
 ## OVERAL
 - program terlalu sederhana, feature yang diimplementasikan hanya untuk role user {

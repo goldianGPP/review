@@ -1,5 +1,5 @@
 
-Certainly! Here's a basic project structure for a React.js application along with a code snippet for consuming an API that can be reused throughout the project.
+basic project structure for a React.js application along with a code snippet for consuming an API that can be reused throughout the project.
 
 Project Structure:
 ```

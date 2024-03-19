@@ -53,7 +53,45 @@ export async function fetchPosts() {
   return await fetchData('posts');
 }
 
-// Add more functions for different API endpoints as needed
+export async function createUser(userData) {
+  const options = {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(userData),
+  };
+  return await fetchData('users', options);
+}
+
+export async function updateUser(userId, userData) {
+  const options = {
+    method: 'PUT',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(userData),
+  };
+  return await fetchData(`users/${userId}`, options);
+}
+
+export async function deleteUser(userId) {
+  const options = {
+    method: 'DELETE',
+  };
+  return await fetchData(`users/${userId}`, options);
+}
+
+export async function patchUser(userId, userData) {
+  const options = {
+    method: 'PATCH',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(userData),
+  };
+  return await fetchData(`users/${userId}`, options);
+}
 ```
 
 Explanation:
